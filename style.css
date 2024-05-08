@@ -23,7 +23,7 @@
     
 }
 
-/*navbar2*/
+/*NAVBAR2*/
 
 .navinha{
     padding: 10px;
@@ -31,30 +31,39 @@
 }
 
 .camp{
-    margin-left: 100px;
+    margin-left: 60px;
     text-decoration: none;
     color: #21468A;
-    background-color: #3B9C62;
-    border-radius: 105px;
-    border-color: #21468A;
+    border: 2px solid #21468A;
+    border-radius: 40px;
+    font-size: 22px;
 }
 
 .transfer{
-    margin-left: 200px;
+    margin-left: 170px;
     text-decoration: none;
     color: #21468A;
+    border: 2px solid #21468A;
+    border-radius: 40px;
+    font-size: 22px;
 }
 
 .clube{
-    margin-left: 230px ;
+    margin-left: 200px ;
     text-decoration: none;
     color: #21468A;
+    border: 2px solid #21468A;
+    border-radius: 40px;
+    font-size: 22px;
 }
 
 .mercado{
-    margin-left: 230px;
+    margin-left: 170px;
     text-decoration: none;
     color: #21468A;
+    border: 2px solid #21468A;
+    border-radius: 15px;
+    font-size: 22px;
 }
 
 .fa-trophy{
@@ -71,4 +80,16 @@
 
 .fa-dollar-sign{
     color: #DCB21E;
+}
+
+/*EC BAHIA NOME E LOGO*/
+
+.nometime h1{
+    font-size: 27px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.logotime img{
+    margin-left: 25px;
 }
