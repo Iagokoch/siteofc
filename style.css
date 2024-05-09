@@ -88,8 +88,35 @@
     font-size: 27px;
     padding: 10px;
     margin-left: 20px;
+    border-bottom: 2px solid #005AFF;
+    max-width: 500px;
 }
 
 .logotime img{
     margin-left: 25px;
+    margin-top: -210px;
+}
+
+.info-clube{
+    background-color: #21468A;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 80px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+}
+
+.plantel{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.estrangeiros{
+    margin-left: 410px;
+    margin-top: 20px;
+}
+
+.med-etaria{
+    margin-left: 40px;
+    margin-top: 80px;
 }
