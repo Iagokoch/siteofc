@@ -1,26 +1,41 @@
 *{
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
     
 }
-/* NAVBAR */
-.navizinha{
-    margin-top: 12px;
-    width: 70%;
-    height: 50px;
-    border-radius: 50px;
-}
+/* header */
 
-.bi-bi-person-circle{
-    height: 55px;
-    margin-left: 10px;
-    margin-top: 10px;
-    text-decoration: none;
-}
-
-#navbar{
-    border-bottom: 3px solid #3B9C62;
+header {
     background-color: #DCB21E;
-    
+    border-bottom: 3px solid #3B9C62;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.submit{
+    width: 40px;
+    height: 22px;
+    border-radius: 5px;
+    background-color: #21468A;
+    color: #fff;
+    border: none;
+}
+
+.submit:hover{
+    background-color: #005AFF;
+    cursor: pointer;
+    height: 25px;
+}
+
+.pesq{
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+#fname::placeholder{
+    padding: 10px;
 }
 
 /*NAVBAR2*/
@@ -31,12 +46,12 @@
 }
 
 .camp{
-    margin-left: 60px;
+    margin-left: 80px;
     text-decoration: none;
     color: #21468A;
     border: 2px solid #21468A;
     border-radius: 40px;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .transfer{
@@ -45,7 +60,7 @@
     color: #21468A;
     border: 2px solid #21468A;
     border-radius: 40px;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .clube{
@@ -54,7 +69,7 @@
     color: #21468A;
     border: 2px solid #21468A;
     border-radius: 40px;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .mercado{
@@ -63,24 +78,31 @@
     color: #21468A;
     border: 2px solid #21468A;
     border-radius: 15px;
-    font-size: 22px;
+    font-size: 18px;
+    padding-right: 7px;
 }
 
 .fa-trophy{
     color: #DCB21E;
+    padding-left: 7px;
 }
 
 .fa-right-left{
     color: #DCB21E;
+    padding-left: 7px;
 }
 
 .fa-shirt{
     color: #DCB21E;
+    padding-left: 7px;
 }
 
 .fa-dollar-sign{
     color: #DCB21E;
+    padding-left: 7px;
 }
+
+
 
 /*EC BAHIA NOME E LOGO*/
 
@@ -117,6 +139,11 @@
 }
 
 .med-etaria{
-    margin-left: 40px;
+    
     margin-top: 80px;
+}
+
+.estadio{
+    margin-left: 40px;
+    margin-bottom: 20px;
 }
