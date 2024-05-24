@@ -114,36 +114,49 @@ header {
     max-width: 500px;
 }
 
-.logotime img{
+.escudo{
     margin-left: 25px;
-    margin-top: -210px;
+
 }
 
 .info-clube{
     background-color: #21468A;
     display: flex;
     margin-left: 200px;
-    margin-top: 80px;
+    margin-top: -150px;
     border-radius: 12px;
-    flex-wrap: wrap;
+    height: 170px;
+    flex-direction: column;
 }
 
-.plantel{
+.setor1{
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 30px;
+    column-count: 2;
+}   
+
+.plantel{
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.med_etaria{
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 40px;
 }
 
 .estrangeiros{
-    margin-left: 410px;
-    margin-top: 20px;
-}
-
-.med-etaria{
-    
-    margin-top: 80px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
 }
 
 .estadio{
-    margin-left: 40px;
-    margin-bottom: 20px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 40px;
 }
