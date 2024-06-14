@@ -242,6 +242,7 @@ table{
     background-color: #fff;
     border-collapse: collapse;
     margin-left: 30px;
+    
 }
 
 th{
@@ -319,4 +320,11 @@ a{
 
 caption{
     color: transparent;
+}
+
+.prop2{
+    
+    border: 1px solid #005AFF;
+    height: 150px;
+    margin-top: -40px;
 }
