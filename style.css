@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     
+    
 }
 /* header */
 
@@ -248,7 +249,7 @@ table{
     max-height: 1000px;
     background-color: #fff;
     border-collapse: collapse;
-    margin-top: -1155px;
+    margin-top: -1205px;
     margin-left: 30px;
 }
 
@@ -348,5 +349,11 @@ footer{
     background-color: #A7332C;
     border: 6px solid #DCB21E;
     height: 1270px;
+    
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 1250px) {
     
 }
