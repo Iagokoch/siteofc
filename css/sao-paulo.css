@@ -346,6 +346,12 @@ footer{
     
 }
 
+/* overflow tabela */
+
+.tabela{
+    overflow: auto;
+}
+
 /* RESPONSIVIDADE */
 
 @media screen and (max-width: 1250px) {
